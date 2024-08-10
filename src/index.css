@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Recursive:wght@300..1000&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  cursor: none !important;
+  @apply font-recursive;
+}
+
+body {
+  @apply bg-black py-6 sm:py-20 min-h-full;
+}
+
+.cursor-dot {
+  width: 20px;
+  height: 20px;
+  background-color: #e93c00;
+  border-radius: 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 1;
+  transform: translate(-50%, -50%);
+  transition: all 0.2s ease-in-out;
+}
+
+.cursor-dot.hovered {
+  opacity: 0;
+}
+
+.cursor-dot.text-hovered {
+  width: 3px;
+  height: 40px;
+  border-radius: 0px;
+  transform-origin: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.wrapper {
+  max-width: 1030px;
+}
+
+.tile {
+  @apply bg-bgColor p-3 sm:p-6 w-full h-[200px] sm:min-h-[260px] border-solid border-2 border-borderColor rounded-2xl;
+}
+
+.hide-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scroll {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  background-color: #1f1f1f;
+  border-radius: 1rem;
+  cursor: pointer;
+  @apply w-[42px] sm:w-[46px] md:w-[40px] lg:w-[48px] h-[42px] sm:h-[46px] md:h-[40px] lg:h-[48px];
+}
+
+.image-wrapper:hover {
+  background-color: white;
+  transition: all 0.3s ease;
+}
+
+#splide01-track {
+  overflow: visible !important;
+}
+
+.splide__slide--clone {
+  color: #969696 !important;
+}
+
+.service-group:hover .service-group-icon {
+  background-color: var(--color);
+}
+
+.service-group:hover .service-group-name {
+  color: var(--color);
+}
+
+.service-group:hover .service-group-desc {
+  color: white;
+}
+.rfm-marquee {
+  align-items: start !important;
+}
+
+.rfm-initial-child-container {
+  align-items: start !important;
+}
+@keyframes moveUp {
+  0% {
+    bottom: 0%;
+  }
+
+  30% {
+    bottom: 100%;
+  }
+
+  100% {
+    bottom: 100%;
+  }
+}
+
+@keyframes moveDown {
+  0% {
+    top: 0%;
+  }
+
+  30% {
+    top: 100%;
+  }
+
+  100% {
+    top: 100%;
+  }
+}
+
+@keyframes moveLeft {
+  0% {
+    right: 0%;
+  }
+
+  30% {
+    right: 100%;
+  }
+
+  100% {
+    right: 100%;
+  }
+}
+
+@keyframes moveRight {
+  0% {
+    left: 0%;
+  }
+
+  30% {
+    left: 100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+.home:after {
+  content: "";
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/76/1k_Dissolve_Noise_Texture.png");
+  background-size: 33%;
+  height: 300%;
+  width: 300%;
+  position: fixed;
+  top: -100%;
+  left: -100%;
+  opacity: 0.045;
+  animation: animateGrain 8s steps(10) infinite;
+  pointer-events: none;
+}
+
+@keyframes animateGrain {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+
+  16% {
+    transform: translate(-3%, -5%);
+  }
+
+  33% {
+    transform: translate(5%, -3%);
+  }
+
+  50% {
+    transform: translate(-7%, 2%);
+  }
+
+  66% {
+    transform: translate(3%, 5%);
+  }
+
+  83% {
+    transform: translate(-5%, -3%);
+  }
+}
