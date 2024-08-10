@@ -4,7 +4,7 @@ import { HoverProvider, HoverContext } from "./HoverContext";
 import Cursor from "./components/Cursor";
 
 const App = () => {
-  const { setIsTextHovered } = useContext(HoverContext);
+  const { setIsHovered, setIsTextHovered } = useContext(HoverContext);
   return (
     <>
       <Home />
@@ -13,14 +13,33 @@ const App = () => {
         <h3
           onMouseEnter={() => setIsTextHovered(true)}
           onMouseLeave={() => setIsTextHovered(false)}
+          className="z-10"
         >
-          Designed by: <span className="text-white">Karthik Deshmukh</span>
+          Designed by:{" "}
+          <a
+            href="/"
+            className="text-white hover:text-orange transition-all duration-300"
+            onMouseEnter={() => setIsHovered(true)}
+            onMouseLeave={() => setIsHovered(false)}
+          >
+            Karthik Deshmukh
+          </a>
         </h3>
         <h3
           onMouseEnter={() => setIsTextHovered(true)}
           onMouseLeave={() => setIsTextHovered(false)}
+          className="z-10"
         >
-          Developed by: <span className="text-white"> Moizullah Shaikh</span>
+          Developed by:{" "}
+          <a
+            href="https://portfolio-ultra-moz.vercel.app/"
+            className="text-white hover:text-orange transition-all duration-300"
+            target="_blank"
+            onMouseEnter={() => setIsHovered(true)}
+            onMouseLeave={() => setIsHovered(false)}
+          >
+            Moizullah Shaikh
+          </a>
         </h3>
       </div>
 
