@@ -15,7 +15,7 @@ const Cursor = () => {
         {
           transform: `translate(${posX}px, ${posY}px) translate(-50%, -50%)`,
         },
-        { duration: 300, fill: "forwards" }
+        { duration: 400, fill: "forwards" }
       );
     };
 
