@@ -24,7 +24,7 @@ const CurrentWorking = () => {
 
         <p className="text-white text-[14px] xs:text-[12px] sm:text-[14px] md:text-base tracking-wide" onMouseEnter={() => setIsTextHovered(true)}
           onMouseLeave={() => setIsTextHovered(false)}>
-          Our devs are working on{" "}
+          I'm currently working on {" "}
           <span style={{ color: homeData.currentWork.textColor }}>
             {homeData.currentWork.name}
           </span>

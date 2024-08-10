@@ -14,10 +14,10 @@ const homeData = {
   deployments: 14,
   currentWork: {
     currently: "Designing",
-    name: "Medidrop",
+    name: "Flymasters",
     image: "/images/working.svg",
-    imgColor: "#28CD41",
-    textColor: "#28CD41",
+    imgColor: "#ffffff",
+    textColor: "#4D96FF",
   },
   skills: [
     "Figma",

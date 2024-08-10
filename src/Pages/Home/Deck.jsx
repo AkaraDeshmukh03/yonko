@@ -9,7 +9,7 @@ const Deck = () => {
     <div className="tile flex flex-col items-start justify-between w-full row-span-1">
       <h3 className="text-grayColor text-[14px] sm:text-base" 
        onMouseEnter={() => setIsTextHovered(true)}
-onMouseLeave={() => setIsTextHovered(false)}>Our Deck:</h3>
+onMouseLeave={() => setIsTextHovered(false)}>My Deck:</h3>
       <div className="flex flex-wrap gap-1 sm:gap-2 overflow-y-scroll max-h-[160px] hide-scroll">
         {homeData.skills.map((skill, index) => {
           return (
