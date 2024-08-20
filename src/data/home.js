@@ -65,6 +65,12 @@ const homeData = {
       endDate: "May'24",
       link:"#",
     },
+    {
+      name: "Bhoomi Logo",
+      startDate: "April'24",
+      endDate: "May'24",
+      link:"https://kdeshmukh.hashnode.dev/designing-the-bhoomi-logo-for-farmland-listings",
+    },
   ],
   services: [
     {
