@@ -112,18 +112,25 @@ const homeData = {
   ],
   testimonials: [
     {
-      name: "Mishra Lalvani",
-      image: "/images/person1.png",
-      title: "CEO - Busease",
+      name: "Nani Goud",
+      image: "/images/bhoomilogo1.jpg",
+      title: "CEO - Bhoomi",
       review:
-        "“Brutanix Studios transformed our platform with their incredible design and development skills. Their attention to detail and creativity are unmatched. Highly recommend!”",
+        "As the owner of Bhoomi, I’m thrilled with the logo and web designs! The team’s research opened up new possibilities for app development and revenue generation.",
     },
     {
-      name: "Yash Reddy",
-      image: "/images/person2.png",
-      title: "CEO - Busease",
+      name: "Puli Aravind Kumar",
+      image: "/images/puliaravindkumar.png",
+      title: "CEO - She Cyber Hub",
       review:
-        "“Brutanix Studios transformed our platform with their incredible design and development skills. Their attention to detail and creativity are unmatched. Highly recommend!”",
+        "“Deshmukh delivered exceptional work for She Cyber Hub, designing and developing our landing page, complaint form, and employee dashboard in just 15 days. The landing page, with its warm colors and thoughtful layout, offers a sense of security for female victims. Deshmukh’s design truly reflects our mission to provide a safe and supportive space.”",
+    },
+    {
+      name: "Ajay",
+      image: "/images/ajay.jpg",
+      title: "Founder - Affix",
+      review:
+        "“The user experience Deshmukh creates is exceptional, and we’re always impressed by how efficiently he operates. He’s become our go-to designer for all our projects.”",
     },
   ],
   socials: [
