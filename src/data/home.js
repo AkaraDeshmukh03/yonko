@@ -45,7 +45,7 @@ const homeData = {
     },
     {
       name: "My Widgets",
-      startDate: "Sept'24",
+      startDate: "Since",
       endDate: "Oct'24",
       link:"https://dribbble.com/Deshmukh_03/collections/7411430-MY-WIDGETS",
     },
