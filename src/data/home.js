@@ -36,11 +36,18 @@ const homeData = {
       endDate: "Under Development",
       link:"https://flm-courses.vercel.app/",
     },
+
     {
-      name: "Widgets Part 1",
+      name: "My Components",
+      startDate: "Since",
+      endDate: "Jan'24",
+      link:"https://dribbble.com/Deshmukh_03/collections/7411539-My-Components",
+    },
+    {
+      name: "My Widgets",
       startDate: "Sept'24",
       endDate: "Oct'24",
-      link:"https://dribbble.com/shots/25648621-Widgets-001",
+      link:"https://dribbble.com/Deshmukh_03/collections/7411430-MY-WIDGETS",
     },
 
    
