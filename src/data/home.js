@@ -33,7 +33,7 @@ const homeData = {
     {
       name: "Front Line Edutech",
       startDate: "Jan'25",
-      endDate: "Current",
+      endDate: "Under Development",
       link:"https://flm-courses.vercel.app/",
     },
     {
