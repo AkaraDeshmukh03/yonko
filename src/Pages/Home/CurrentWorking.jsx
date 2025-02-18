@@ -16,7 +16,7 @@ const CurrentWorking = () => {
       </h3>
       <div className="flex flex-col items-start gap-3 sm:gap-6 ">
         <div
-          className="rounded-xl w-[38px] sm:w-[40px] md:w-[48px] aspect-square flex items-center justify-center"
+          className="rounded-xl w-[38px] sm:w-[40px] md:w-[56px] aspect-square flex items-center justify-center p-[8px]"
           style={{ backgroundColor: homeData.currentWork.imgColor }}
         >
           <img src={homeData.currentWork.image} alt="Working" />
@@ -25,9 +25,16 @@ const CurrentWorking = () => {
         <p className="text-white text-[14px] xs:text-[12px] sm:text-[14px] md:text-base tracking-wide" onMouseEnter={() => setIsTextHovered(true)}
           onMouseLeave={() => setIsTextHovered(false)}>
           I'm currently working on {" "}
-          <span style={{ color: homeData.currentWork.textColor }}>
+          <a
+            href={homeData.currentWork.link}
+            target="_blank"
+            style={{ color: homeData.currentWork.textColor }}
+            onMouseEnter={() => setIsHovered(true)}
+            onMouseLeave={() => setIsHovered(false)}
+            className="hover:!text-orange transition-all duration-200 ease-in-out"
+          >
             {homeData.currentWork.name}
-          </span>
+          </a>
         </p>
       </div>
     </div>

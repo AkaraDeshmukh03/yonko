@@ -16,7 +16,8 @@ const homeData = {
     currently: "Designing",
     name: "Front Lines Media",
     image: "/images/FLM Logo.svg",
-    imgColor: "transparent",
+    link: "https://flm-courses.vercel.app/",
+    imgColor: "#FAAC30",
     textColor: "#FAAC30",
   },
   skills: [
@@ -36,11 +37,13 @@ const homeData = {
       link:"https://flm-courses.vercel.app/",
     },
     {
-      name: "Indoor Harvest",
+      name: "Widgets Part 1",
       startDate: "Sept'24",
       endDate: "Oct'24",
-      link:"https://indoor-harvest.vercel.app/",
+      link:"https://dribbble.com/shots/25648621-Widgets-001",
     },
+
+   
     {
       name: "Flymasters",
       startDate: "July'24",
@@ -48,10 +51,16 @@ const homeData = {
       link:"https://flymasters.in/",
     },
     {
-      name: "Skill24em",
+      name: "Vault App",
       startDate: "Jun'24",
       endDate: "July'24",
-      link:"#",
+      link:"https://x.com/KDeshmukh03/status/1766567818567323707",
+    },
+    {
+      name: "CTA UX-UI",
+      startDate: "NDA Signed",
+      endDate: "Sample view",
+      link:"https://x.com/KDeshmukh03/status/1766183817847722492",
     },
     {
       name: "Gigleaz Jobs",
