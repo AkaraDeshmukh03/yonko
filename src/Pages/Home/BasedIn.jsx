@@ -20,7 +20,7 @@ const BasedIn = () => {
       minute: "2-digit",
       second: "2-digit",
       hour12: true,
-      timeZone: "Asia/Kolkata",
+      timeZone: "Europe/Copenhagen",
     };
     return date.toLocaleTimeString("en-US", options);
   };
@@ -30,7 +30,7 @@ const BasedIn = () => {
       day: "2-digit",
       month: "long",
       year: "numeric",
-      timeZone: "Asia/Kolkata",
+      timeZone: "Europe/Copenhagen",
     });
   };
 
@@ -54,7 +54,7 @@ const BasedIn = () => {
             onMouseEnter={() => setIsTextHovered(true)}
             onMouseLeave={() => setIsTextHovered(false)}
           >
-            Hyd, IND <span className="text-orange">•</span> IST
+            Lyngby, DEN <span className="text-orange">•</span> CET
           </span>
           <span
             className="text-grayColor text-[14px] sm:text-base"

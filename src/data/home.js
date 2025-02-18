@@ -11,13 +11,13 @@ import ProductDesign from "../components/icons/ProductDesign";
 import WebDevelopment from "../components/icons/WebDevelopment";
 
 const homeData = {
-  deployments: 14,
+  deployments: 15,
   currentWork: {
     currently: "Designing",
-    name: "Flymasters",
-    image: "/images/working.svg",
-    imgColor: "#ffffff",
-    textColor: "#4D96FF",
+    name: "Front Lines Media",
+    image: "/images/FLM Logo.svg",
+    imgColor: "transparent",
+    textColor: "#FAAC30",
   },
   skills: [
     "Figma",
@@ -30,10 +30,22 @@ const homeData = {
   ],
   projects: [
     {
-      name: "Medidrop",
-      startDate: "July'24",
+      name: "Front Line Edutech",
+      startDate: "Jan'25",
       endDate: "Current",
-      link:"#",
+      link:"https://flm-courses.vercel.app/",
+    },
+    {
+      name: "Indoor Harvest",
+      startDate: "Sept'24",
+      endDate: "Oct'24",
+      link:"https://indoor-harvest.vercel.app/",
+    },
+    {
+      name: "Flymasters",
+      startDate: "July'24",
+      endDate: "Sept'24",
+      link:"https://flymasters.in/",
     },
     {
       name: "Skill24em",
@@ -45,7 +57,7 @@ const homeData = {
       name: "Gigleaz Jobs",
       startDate: "May'24",
       endDate: "July'24",
-      link:"#",
+      link:"https://gigleaz.brutanix.com/",
     },
     {
       name: "She Cyber Hub",
@@ -57,13 +69,13 @@ const homeData = {
       name: "She Cyber Hub - Dashboard",
       startDate: "May'24",
       endDate: "Jun'24",
-      link:"#",
+      link:"https://dribbble.com/shots/25648241-SCH-She-Cyber-Hub-Dashboard",
     },
     {
       name: "Bhoomi",
       startDate: "April'24",
       endDate: "May'24",
-      link:"#",
+      link:"https://dribbble.com/shots/24313219-Dashboard-Bhoomi?utm_source=Clipboard_Shot&utm_campaign=Deshmukh_03&utm_content=Dashboard%20-%20Bhoomi&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=Deshmukh_03&utm_content=Dashboard%20-%20Bhoomi&utm_medium=Social_Share",
     },
     {
       name: "Bhoomi Logo",
